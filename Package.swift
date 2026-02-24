@@ -25,7 +25,7 @@ let package = Package(
     ),
   ],
   dependencies: [
-    .package(url: "https://github.com/jacobcxdev/swift-custom-dump", from: "1.3.3"),
+    .package(path: "../swift-custom-dump"),
     .package(url: "https://github.com/swiftlang/swift-syntax", "509.0.0"..<"603.0.0"),
   ],
   targets: [
